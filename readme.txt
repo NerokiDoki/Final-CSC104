@@ -15,6 +15,7 @@ Latest News and Upcoming Events: A section that lists important dates such as th
 Room Bookings: Lists available rooms with their corresponding classes.
 Upcoming Classes and Learning Fairs: Shows upcoming classes and events with dates.
 These sections are wrapped in div tags with the class box, making them easy to style using CSS.
+
 Footer Section:
 
 Displays partner logos inside a div.
