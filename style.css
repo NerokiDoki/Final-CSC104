@@ -16,7 +16,7 @@ header {
 
 header img {
     width: 250px; /* Size of logo */
-    height: 165px; /* Size of logo */
+    height: 100px; /* Size of logo */
     margin: 0 20px;
 }
 
@@ -47,10 +47,17 @@ nav a {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text inside the box */
 }
 
 .box h2 {
-    text-align: center;
+    text-align: center; /* Ensure the header is centered */
+    margin-bottom: 15px; /* Add spacing between header and content */
+}
+
+.box p {
+    text-align: center; /* Center the paragraphs */
+    margin-bottom: 10px; /* Add spacing between paragraphs */
 }
 
 /* Footer section styling */
@@ -63,7 +70,7 @@ footer {
 
 footer img {
     width: 250px; /* Size of images */
-    height: 165px; /* Size of images */
+    height: 100px; /* Size of images */
     margin: 0 10px;
 }
 
