@@ -15,7 +15,7 @@ header {
 }
 
 header img {
-    width: 100px; /* Size of logo */
+    width: 250px; /* Size of logo */
     height: 100px; /* Size of logo */
     margin: 0 20px;
 }
@@ -62,7 +62,7 @@ footer {
 }
 
 footer img {
-    width: 100px; /* Size of images */
+    width: 250px; /* Size of images */
     height: 100px; /* Size of images */
     margin: 0 10px;
 }
