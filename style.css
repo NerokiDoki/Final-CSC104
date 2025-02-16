@@ -3,16 +3,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: darkblue; /* Dark blue background */
+    color: black; /* All text will be black */
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensures the body takes full height of the screen */
 }
 
+/* Site title styling */
+h1 {
+    font-family: 'Comic Sans MS', Comic Sans, cursive; /* Comic Sans for the site title */
+    color: white; /* Black text color for site title */
+    text-align: center;
+    padding: 20px;
+}
+
 /* Header section styling */
 header {
     background-color: #333;
-    color: white;
+    color: white; /* White text in the header */
     padding: 10px 0;
     text-align: center;
 }
@@ -31,9 +40,27 @@ nav {
 
 nav a {
     margin: 0 15px;
-    color: #333;
+    color: white; /* Black color for navigation links */
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif; /* Trebuchet MS for navigation links */
+    font-size: 25px; /* Set the font size to 25px */
+    padding: 15px 25px; /* Add padding around the link text */
+    border: 2px solid black; /* Add a black border around each link */
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* 3D box-shadow for 3D effect */
+    transition: all 0.3s ease; /* Smooth transition for hover and active effects */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: lightblue; /* Light blue background on hover */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5); /* Stronger 3D effect on hover */
+}
+
+/* Navigation link active color */
+nav a:active {
+    color: brightblue; /* Bright blue color for active link */
 }
 
 /* Middle section styling */
@@ -42,32 +69,43 @@ nav a {
     justify-content: space-between; /* Distribute the boxes with space between */
     margin: 20px;
     flex-grow: 1; /* Ensures the content area takes remaining space */
+    background-color: darkgray; /* Dark gray background */
+    padding: 20px;
 }
 
 .box {
     width: 32%; /* Adjust to make boxes fill the available space */
     padding: 20px;
-    background-color: #fff;
+    background-color: lightblue; /* Light blue boxes */
     border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners for 3D effect */
     text-align: center; /* Center the text inside the box */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.15); /* 3D shadow effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .box h2 {
-    text-align: center; /* Ensure the header is centered */
+    font-family: 'Impact', fantasy; /* Impact for middle section headings */
+    color: black; /* Black color for headings */
     margin-bottom: 15px; /* Add spacing between header and content */
 }
 
 .box p {
+    font-family: 'Gill Sans', sans-serif; /* Gill Sans for paragraphs */
     text-align: center; /* Center the paragraphs */
     margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+/* Hover effect for the middle section boxes */
+.box:hover {
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3), 0 12px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover for more 3D effect */
+    transform: translateY(-5px); /* Lift the box slightly to enhance the 3D effect */
 }
 
 /* Footer section styling */
 footer {
     background-color: #333;
-    color: white;
+    color: white; /* White text in the footer */
     padding: 20px 0;
     text-align: center;
     margin-top: auto; /* Ensures the footer sticks to the bottom */
@@ -80,7 +118,7 @@ footer img {
 }
 
 .footer-links a {
-    color: white;
+    color: white; /* White color for footer links */
     text-decoration: none;
     margin: 0 15px;
 }
