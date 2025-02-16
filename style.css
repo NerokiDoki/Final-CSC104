@@ -1,124 +1,124 @@
 /* Basic styling for the layout */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: darkblue; /* Dark blue background */
-    color: black; /* All text will be black */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensures the body takes full height of the screen */
+    font-family: Arial, sans-serif; /* Set font to Arial for the entire body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: darkblue; /* Set background color to dark blue */
+    color: black; /* Set text color to black */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Arrange child elements vertically */
+    min-height: 100vh; /* Ensure the body takes the full height of the screen */
 }
 
 /* Site title styling */
 h1 {
-    font-family: 'Comic Sans MS', Comic Sans, cursive; /* Comic Sans for the site title */
-    color: white; /* Black text color for site title */
-    text-align: center;
-    padding: 20px;
+    font-family: 'Comic Sans MS', Comic Sans, cursive; /* Use Comic Sans for the site title */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center the title text */
+    padding: 20px; /* Add padding around the title */
 }
 
 /* Header section styling */
 header {
-    background-color: #333;
-    color: white; /* White text in the header */
-    padding: 10px 0;
-    text-align: center;
+    background-color: #333; /* Set header background color to dark gray */
+    color: white; /* Set text color in the header to white */
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+    text-align: center; /* Center the header text */
 }
 
 header img {
-    width: 250px; /* Size of logo */
-    height: 160px; /* Size of logo */
-    margin: 0 20px;
+    width: 250px; /* Set width of the header logo */
+    height: 160px; /* Set height of the header logo */
+    margin: 0 20px; /* Add horizontal margin to logo */
 }
 
-/* Navigation links */
+/* Navigation links styling */
 nav {
-    text-align: center;
-    margin: 20px 0;
+    text-align: center; /* Center the navigation links */
+    margin: 20px 0; /* Add vertical margin around the navigation */
 }
 
 nav a {
-    margin: 0 15px;
-    color: white; /* Black color for navigation links */
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', sans-serif; /* Trebuchet MS for navigation links */
-    font-size: 25px; /* Set the font size to 25px */
+    margin: 0 15px; /* Add horizontal margin between the navigation links */
+    color: white; /* Set text color of the links to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Trebuchet MS', sans-serif; /* Use Trebuchet MS font for the links */
+    font-size: 25px; /* Set font size to 25px */
     padding: 15px 25px; /* Add padding around the link text */
-    border: 2px solid black; /* Add a black border around each link */
-    border-radius: 8px; /* Rounded corners for the box */
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* 3D box-shadow for 3D effect */
-    transition: all 0.3s ease; /* Smooth transition for hover and active effects */
+    border: 2px solid black; /* Add a black border around the links */
+    border-radius: 8px; /* Round the corners of the border */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Apply a subtle 3D shadow to the links */
+    transition: all 0.3s ease; /* Apply smooth transition for hover and active effects */
 }
 
 /* Hover effect for navigation links */
 nav a:hover {
-    background-color: lightblue; /* Light blue background on hover */
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5); /* Stronger 3D effect on hover */
+    background-color: lightblue; /* Change background to light blue on hover */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5); /* Stronger shadow for a more pronounced 3D effect */
 }
 
 /* Navigation link active color */
 nav a:active {
-    color: brightblue; /* Bright blue color for active link */
+    color: brightblue; /* Change the text color to bright blue when the link is clicked */
 }
 
 /* Middle section styling */
 .content {
-    display: flex;
-    justify-content: space-evenly; /* Distribute the boxes with space between */
-    margin: 20px;
-    flex-grow: 1; /* Ensures the content area takes remaining space */
-    background-color: darkgray; /* Dark gray background */
-    padding: 20px;
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-evenly; /* Distribute child elements evenly with space between them */
+    margin: 20px; /* Add margin around the content section */
+    flex-grow: 1; /* Allow the content section to take up the remaining available space */
+    background-color: darkgray; /* Set background color to dark gray */
+    padding: 20px; /* Add padding inside the content area */
 }
 
 .box {
-    width: 32%; /* Adjust to make boxes fill the available space */
-    padding: 20px;
-    background-color: lightblue; /* Light blue boxes */
-    border: 1px solid #ddd;
-    border-radius: 10px; /* Rounded corners for 3D effect */
+    width: 32%; /* Make each box take up roughly a third of the available space */
+    padding: 20px; /* Add padding inside each box */
+    background-color: lightblue; /* Set background color of the box to light blue */
+    border: 1px solid #ddd; /* Add a light border around the box */
+    border-radius: 10px; /* Round the corners of the box */
     text-align: center; /* Center the text inside the box */
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.15); /* 3D shadow effect */
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a soft 3D shadow effect to the box */
+    transition: all 0.3s ease; /* Apply smooth transition for hover effect */
 }
 
 .box h2 {
-    font-family: 'Impact', fantasy; /* Impact for middle section headings */
-    color: black; /* Black color for headings */
-    margin-bottom: 15px; /* Add spacing between header and content */
+    font-family: 'Impact', fantasy; /* Use Impact font for headings inside the boxes */
+    color: black; /* Set heading color to black */
+    margin-bottom: 15px; /* Add margin below the heading to separate it from the content */
 }
 
 .box p {
-    font-family: 'Gill Sans', sans-serif; /* Gill Sans for paragraphs */
-    text-align: center; /* Center the paragraphs */
-    margin-bottom: 10px; /* Add spacing between paragraphs */
+    font-family: 'Gill Sans', sans-serif; /* Use Gill Sans font for paragraphs */
+    text-align: center; /* Center the paragraph text */
+    margin-bottom: 10px; /* Add margin below each paragraph for spacing */
 }
 
 /* Hover effect for the middle section boxes */
 .box:hover {
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3), 0 12px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover for more 3D effect */
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3), 0 12px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow for a more 3D effect on hover */
     transform: translateY(-5px); /* Lift the box slightly to enhance the 3D effect */
 }
 
 /* Footer section styling */
 footer {
-    background-color: #333;
-    color: white; /* White text in the footer */
-    padding: 20px 0;
-    text-align: center;
-    margin-top: auto; /* Ensures the footer sticks to the bottom */
+    background-color: #333; /* Set footer background color to dark gray */
+    color: white; /* Set text color in the footer to white */
+    padding: 20px 0; /* Add padding to the top and bottom of the footer */
+    text-align: center; /* Center the text in the footer */
+    margin-top: auto; /* Push the footer to the bottom of the page */
 }
 
 footer img {
-    width: 250px; /* Size of images */
-    height: 160px; /* Size of images */
-    margin: 0 10px;
+    width: 250px; /* Set size of images in the footer */
+    height: 160px; /* Set size of images in the footer */
+    margin: 0 10px; /* Add margin between images */
 }
 
 .footer-links a {
-    color: white; /* White color for footer links */
-    text-decoration: none;
-    margin: 0 15px;
+    color: white; /* Set link color to white in the footer */
+    text-decoration: none; /* Remove underline from footer links */
+    margin: 0 15px; /* Add margin between footer links */
 }
